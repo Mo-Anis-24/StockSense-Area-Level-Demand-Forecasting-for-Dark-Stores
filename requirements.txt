@@ -1,19 +1,21 @@
 # ── core data ──────────────────────────────────────────────
 pandas==2.2.2
 numpy==1.26.4
-pyarrow==16.0.0          # fast parquet read/write
+
+# ⚠️ FIX: compatible with mlflow
+pyarrow>=14,<16
 
 # ── visualisation ──────────────────────────────────────────
 matplotlib==3.9.0
 seaborn==0.13.2
 plotly==5.22.0
-folium==0.17.0           # map visualisation in streamlit
+folium==0.17.0
 
 # ── machine learning ───────────────────────────────────────
 scikit-learn==1.5.0
 lightgbm==4.3.0
 xgboost==2.0.3
-optuna==3.6.1            # hyperparameter tuning
+optuna==3.6.1
 
 # ── explainability ─────────────────────────────────────────
 shap==0.45.1
@@ -26,7 +28,7 @@ fastapi==0.111.0
 uvicorn==0.30.1
 pydantic==2.7.1
 streamlit==1.35.0
-streamlit-folium==0.20.0 # folium maps inside streamlit
+streamlit-folium==0.20.0
 
 # ── http + external apis ───────────────────────────────────
 requests==2.32.2

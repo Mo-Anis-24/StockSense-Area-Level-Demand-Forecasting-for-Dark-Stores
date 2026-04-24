@@ -1,0 +1,15 @@
+artifact_uri: file:///f:/projectss/personal/blinkit_project/noteboook/mlruns/433962888164813225/c9a2edfd93364523bd0d4cb642956216/artifacts
+end_time: 1777050964228
+entry_point_name: ''
+experiment_id: '433962888164813225'
+lifecycle_stage: active
+run_id: c9a2edfd93364523bd0d4cb642956216
+run_name: lgbm_v1
+run_uuid: c9a2edfd93364523bd0d4cb642956216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777050917967
+status: 3
+tags: []
+user_id: ANIS MANSURI
