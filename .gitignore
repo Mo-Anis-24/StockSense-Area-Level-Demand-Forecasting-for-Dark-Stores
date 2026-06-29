@@ -1,5 +1,26 @@
+@"
+# Virtual environment
+env/
+venv/
+.venv/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data
 data/
-*.csvdata/ 
-*.csv 
-data/ 
-*.csv 
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
